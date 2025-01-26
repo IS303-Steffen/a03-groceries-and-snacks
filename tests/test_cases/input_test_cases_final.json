@@ -1,0 +1,195 @@
+[
+    {
+        "id_input_test_case": 1,
+        "input_test_case_description": "Adding an item, checking if that same item is in the list (it should be), and then removing that item from the list. The list should have 2 things in it at the end.",
+        "inputs": [
+            "pasta",
+            "pasta",
+            "pasta"
+        ],
+        "input_prompts": [
+            "\nEnter a new grocery item to add: ",
+            "\nEnter an item to see if it's in your list: ",
+            "\nEnter an item to remove from the list: "
+        ],
+        "printed_messages": [
+            "Current grocery list:",
+            "['apples', 'bananas', 'milk']",
+            "pasta is in your list.",
+            "pasta was removed from the list.",
+            "was removed from the list.",
+            "\nFinal grocery list:",
+            "['bananas', 'milk']"
+        ],
+        "invalid_input_prompts": [
+        ],
+        "invalid_printed_messages": [
+        ],
+        "bools": {},
+        "ints": {},
+        "strings": {
+            "new_item": "pasta",
+            "item_to_check": "pasta",
+            "remove_item": "pasta",
+            "removed_first": "apples"
+        },
+        "floats": {},
+        "lists": {
+            "grocery_list": [
+                "bananas",
+                "milk"
+            ]
+        },
+        "dicts": {},
+        "example_output": "Current grocery list:\n['apples', 'bananas', 'milk']\n\nEnter a new grocery item to add: pasta\n\nEnter an item to see if it's in your list: pasta\npasta is in your list.\n\nEnter an item to remove from the list: pasta\npasta was removed from the list.\n\nThe first item, apples, was removed from the list.\n\nFinal grocery list:\n['bananas', 'milk']"
+    },
+    {
+        "id_input_test_case": 2,
+        "input_test_case_description": "Adding an item from the list, checking if an item that isn't in the list is in the list, then trying to remove an item that isn't in the list. At the end, your list should have 3 items in it.",
+        "inputs": [
+            "pasta",
+            "thisWillNotBeInTheList",
+            "thisWillNotBeInTheList"
+        ],
+        "input_prompts": [
+            "\nEnter a new grocery item to add: ",
+            "\nEnter an item to see if it's in your list: ",
+            "\nEnter an item to remove from the list: "
+        ],
+        "printed_messages": [
+            "Current grocery list:",
+            "['apples', 'bananas', 'milk']",
+            "thisWillNotBeInTheList is not in your list.",
+            "was removed from the list.",
+            "\nFinal grocery list:",
+            "['bananas', 'milk', 'pasta']"
+        ],
+        "invalid_input_prompts": [
+        ],
+        "invalid_printed_messages": [
+            "pasta is in your list.",
+            "pasta was removed from the list."
+        ],
+        "bools": {},
+        "ints": {},
+        "strings": {
+            "new_item": "pasta",
+            "item_to_check": "thisWillNotBeInTheList",
+            "remove_item": "thisWillNotBeInTheList",
+            "removed_first": "apples"
+        },
+        "floats": {},
+        "lists": {
+            "grocery_list": [
+                "bananas",
+                "milk",
+                "pasta"
+            ]
+        },
+        "dicts": {},
+        "example_output": "Current grocery list:\n['apples', 'bananas', 'milk']\n\nEnter a new grocery item to add: pasta\n\nEnter an item to see if it's in your list: thisWillNotBeInTheList\nthisWillNotBeInTheList is not in your list.\n\nEnter an item to remove from the list: thisWillNotBeInTheList\nthisWillNotBeInTheList is not in your list.\n\nThe first item, apples, was removed from the list.\n\nFinal grocery list:\n['bananas', 'milk', 'pasta']"
+    },
+    {
+        "id_input_test_case": 3,
+        "input_test_case_description": "adding a new snack, updating that snack, and then removing it. The ending dictionary should have 3 items in it.",
+        "inputs": [
+            "starburst",
+            "55",
+            "starburst",
+            "10",
+            "starburst"
+        ],
+        "input_prompts": [
+            "\nEnter the name of a new snack to add: ",
+            "Enter the count for starburst: ",
+            "\nEnter the name of a snack to update: ",
+            "Enter the new count for starburst: ",
+            "\nEnter the name of a snack to remove: "
+        ],
+        "printed_messages": [
+            "Current snack inventory:",
+            "{'chips': 3, 'cookies': 5, 'granola bars': 2}",
+            "starburst was added to your inventory.",
+            "The count for starburst was updated.",
+            "starburst was removed from your inventory.",
+            "\nFinal snack inventory:"
+        ],
+        "invalid_input_prompts": [
+
+        ],
+        "invalid_printed_messages": [
+            "{'chips': 3, 'cookies': 5, 'granola bars': 2, 'starburst': 55}",
+            "NotInTheDictionary is not in your inventory."
+        ],
+        "bools": {},
+        "ints": {
+            "new_count": 10
+        },
+        "strings": {
+            "new_snack": "starburst",
+            "update_snack": "starburst",
+            "remove_snack": "starburst"
+        },
+        "floats": {},
+        "lists": {},
+        "dicts": {
+            "snack_counts": {
+                "chips": 3,
+                "cookies": 5,
+                "granola bars": 2
+            }
+        },
+        "example_output": "Current snack inventory:\n{'chips': 3, 'cookies': 5, 'granola bars': 2}\n\nEnter the name of a new snack to add: starburst\nEnter the count for starburst: 55\nstarburst was added to your inventory.\n\nEnter the name of a snack to update: starburst\nEnter the new count for starburst: 10\nThe count for starburst was updated.\n\nEnter the name of a snack to remove: starburst\nstarburst was removed from your inventory.\n\nFinal snack inventory:\n{'chips': 3, 'cookies': 5, 'granola bars': 2}"
+    },
+    {
+        "id_input_test_case": 4,
+        "input_test_case_description": "Adding a new snack, but providing an invalid name for the update and deleting. The final dictionary should have 4 items in it.",
+        "inputs": [
+            "starburst",
+            "55",
+            "NotInTheDictionary",
+            "NotInTheDictionary"
+        ],
+        "input_prompts": [
+            "\nEnter the name of a new snack to add: ",
+            "Enter the count for starburst: ",
+            "\nEnter the name of a snack to update: ",
+            "\nEnter the name of a snack to remove: "
+        ],
+        "printed_messages": [
+            "Current snack inventory:",
+            "{'chips': 3, 'cookies': 5, 'granola bars': 2}",
+            "starburst was added to your inventory.",
+            "NotInTheDictionary is not in your inventory.",
+            "\nFinal snack inventory:",
+            "{'chips': 3, 'cookies': 5, 'granola bars': 2, 'starburst': 55}"
+        ],
+        "invalid_input_prompts": [
+            "Enter the new count for starburst: "
+        ],
+        "invalid_printed_messages": [
+            "The count for starburst was updated.",
+            "starburst was removed from your inventory."
+        ],
+        "bools": {},
+        "ints": {
+            "new_count": 55
+        },
+        "strings": {
+            "new_snack": "starburst",
+            "update_snack": "NotInTheDictionary",
+            "remove_snack": "NotInTheDictionary"
+        },
+        "floats": {},
+        "lists": {},
+        "dicts": {
+            "snack_counts": {
+                "chips": 3,
+                "cookies": 5,
+                "granola bars": 2,
+                "starburst": 55
+            }
+        },
+        "example_output": "Current snack inventory:\n{'chips': 3, 'cookies': 5, 'granola bars': 2}\n\nEnter the name of a new snack to add: starburst\nEnter the count for starburst: 55\nstarburst was added to your inventory.\n\nEnter the name of a snack to update: NotInTheDictionary\nNotInTheDictionary is not in your inventory.\n\nEnter the name of a snack to remove: NotInTheDictionary\nNotInTheDictionary is not in your inventory.\n\nFinal snack inventory:\n{'chips': 3, 'cookies': 5, 'granola bars': 2, 'starburst': 55}"
+    }
+]
