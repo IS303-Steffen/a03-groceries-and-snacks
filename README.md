@@ -13,27 +13,28 @@ This assignment has two .py files: `a04_grocery_list.py` and `a04_snack_dictiona
         - `Current grocery list:`
     - Then print out your list. It's fine that it appears with the square brackets:
         - for example, something like:
-        - `['apple', 'banana', 'milk']`
+        - `['apples', 'bananas', 'milk']`
 
 3. Add a new item to the list:  
     - Prompt the user to add another item:
-        - `Enter an item to add to your list: `
+        - `Enter a new grocery item to add: `
     - Add the entered item to the end of your list
 
 4. Check for a specific item in your list:  
     - Prompt the user to enter an item to see if it is in your list
         - `Enter an item to see if it's in your list: `
     - Then if the item the user enters is in your list already, print:
-        - `<item entered> is on your list`.
+        - `<item entered> is in your list`.
     - If the item isn't in your list, print:
         - `<item entered> is not in your list.`
     - Note: you don't need to check or adjust your code for proper capitalization.
 
 5. Remove an item by name:  
-   - Prompt the user to enter the name of an item they want to remove.  
-   - If the item exists in the list, remove it and print out:
+    - Prompt the user to enter the name of an item they want to remove.  
+        - `Enter an item to remove from the list: `
+    - If the item exists in the list, remove it and print out:
         - `<item entered> was removed from the list.`  
-   - If the item is not in the list, don't remove anything and print out:
+    - If the item is not in the list, don't remove anything and print out:
         - `<item entered> is not in your list.`
 
 6. Remove the first item:  
