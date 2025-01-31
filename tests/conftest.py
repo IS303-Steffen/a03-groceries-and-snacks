@@ -1220,8 +1220,6 @@ def prettify_dictionary(dictionary, indent_level=0):
     # Return without the last newline
     return formatted_dict_str.rstrip()
 
-import difflib
-
 def get_similarity_feedback(normalized_expected_phrase, normalized_captured_strings_list, similarity_threshold=0.7):
     """
     Checks for similarity between a normalized expected phrase and a list of normalized captured strings.
