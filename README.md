@@ -67,16 +67,16 @@ This assignment has two .py files: `a04_grocery_list.py` and `a04_snack_dictiona
         - `<new snack> is already in your inventory.`  
     - If the snack is not in the dictionary, prompt the user to enter the quantity:  
         - `Enter the count for <new snack>:  `  
-    - Add the new snack name and quantity to the dictionary and print:  
-        - `<new snack> was added to your inventory.`  
+        - Then add the new snack name and quantity to the dictionary and print:  
+            - `<new snack> was added to your inventory.`  
 
 4. Update the count for an existing snack**:  
     - Prompt the user to enter the name of a snack they want to update:  
         - `Enter the name of a snack to update: `  
     - If the snack is in the dictionary, prompt the user to enter the new count:  
         - `Enter the new count for <snack>: `  
-    - Update the count for the snack and print:  
-        - `The count for <snack> was updated.`  
+        - Then update the count for the snack and print:  
+            - `The count for <snack> was updated.`  
     - If the snack is not in the dictionary, print:  
         - `<snack> is not in your inventory.`  
 
