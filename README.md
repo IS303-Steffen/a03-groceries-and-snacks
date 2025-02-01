@@ -39,7 +39,7 @@ This assignment has two .py files: `a04_grocery_list.py` and `a04_snack_dictiona
 
 6. Remove the first item:  
     - Remove the first item from the list, and print out:
-        - `"\nThe first item, <removed item>, was removed from the list.`
+        - `The first item, <removed item>, was removed from the list.`
 
 8. Print the final list:  
     - Print out:
