@@ -5,9 +5,6 @@ Instead of manually writing out test cases, I opted to create this script
 that will run my solution file and automatically store any inputs, printed
 messages, and variables that are created during the run in a JSON file. Each
 additional run will append the new data from that run in the JSON file.
-
-If you want to start from scratch MAKE SURE you delete the input_test_cases_drafts.json file.
-Otherwise, it will just append the new test case on top of it.
 '''
 import builtins
 import json
@@ -17,7 +14,7 @@ import sys
 from datetime import date, datetime
 
 # Name of the file that will be run to generate the test cases from:
-solution_file_to_run = "a04_solution_snack_dictionary.py"
+solution_file_to_run = "a02_solution_loan_risk_assessment.py"
 # Name of the JSON file that is created after running the script:
 json_export_filename = r'input_test_cases_draft.json'
 

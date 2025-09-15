@@ -1,8 +1,8 @@
-#### Assignment 4
+#### Assignment 3
 # Groceries and Snacks
-This assignment has two .py files: `a04_grocery_list.py` and `a04_snack_dictionary.py`. In the first file you'll write a simple program to practice using a list, in the second you'll use a dictionary.
+This assignment has two .py files: `a03_grocery_list.py` and `a03_snack_dictionary.py`. In the first file you'll write a simple program to practice using a list, in the second you'll use a dictionary.
 
-## Logical Flow for `a04_grocery_list.py`
+## Logical Flow for `a03_grocery_list.py`
 
 1. Create a grocery list:  
     - Create a list with three grocery foods inside it of your choice (e.g., `"apples"`, `"bananas"`, `"milk"`, etc.). Make sure there are exactly 3 items in the list (otherwise the automated tests won't work).
@@ -46,7 +46,7 @@ This assignment has two .py files: `a04_grocery_list.py` and `a04_snack_dictiona
         - `Final grocery list:`
     - Then print out your grocery list variable.
 
-## Logical Flow for `a04_snack_dictionary.py`
+## Logical Flow for `a03_snack_dictionary.py`
 
 1. Create a snack inventory:  
     - Create a dictionary where the keys are snack names and the values are the quantities of those snacks. You can use whatever snacks and numbers you want. (e.g., `"chips": 3`, `"cookies": 5`, `"granola bars": 2`, etc.).  
@@ -99,7 +99,7 @@ See the Rubric.md file.
 
 Remember to right click the file and choose "Open Preview" to view the nicely formatted version.
 
-## Example Output for `a04_grocery_list.py`
+## Example Output for `a03_grocery_list.py`
 
 ```
 Current grocery list:
@@ -119,7 +119,7 @@ Final grocery list:
 ['bananas', 'milk']
 ```
 
-## Example Output for `a04_snack_dictionary.py`
+## Example Output for `a03_snack_dictionary.py`
 
 ```
 Current snack inventory:

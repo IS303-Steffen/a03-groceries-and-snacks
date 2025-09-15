@@ -17,10 +17,10 @@ The tests will ignore spacing, capitalization, and punctuation, but you will fai
         <td>1. Input Prompts: List</td>
         <td>
         <b>Input test cases used:</b> 1, 2<br><br>
-        This is for the <code>a04_grocery_list.py</code> file. Your input prompts must be the same as the expected input prompts of each input test case. 
+        This is for the <code>a03_grocery_list.py</code> file. Your input prompts must be the same as the expected input prompts of each input test case. 
         <br>
         <br>
-        See the <code>descriptions_ot_test_cases</code> folder for expected input prompts for each input test case.
+        See the <code>descriptions_of_test_cases</code> folder for expected input prompts for each input test case.
         </td>  
         </td>
         <td>15</td>
@@ -29,10 +29,10 @@ The tests will ignore spacing, capitalization, and punctuation, but you will fai
         <td>2. Input Prompts: Dictionary</td>
         <td>
         <b>Input test cases used:</b> 3, 4<br><br>
-        This is for the <code>a04_snack_dictionary.py</code> file. Your input prompts must be the same as the expected input prompts of each input test case. 
+        This is for the <code>a03_snack_dictionary.py</code> file. Your input prompts must be the same as the expected input prompts of each input test case. 
         <br>
         <br>
-        See the <code>descriptions_ot_test_cases</code> folder for expected input prompts for each input test case.
+        See the <code>descriptions_of_test_cases</code> folder for expected input prompts for each input test case.
         </td>  
         </td>
         <td>15</td>
@@ -41,20 +41,20 @@ The tests will ignore spacing, capitalization, and punctuation, but you will fai
         <td>3. Printed Messages: List</td>
         <td>
         <b>Input test cases used:</b> 1, 2<br><br>
-        This is for the <code>a04_grocery_list.py</code> file. Your printed output must be the same as the expected output of each input test case. This includes the correct BMI calculations and BMI categories.
+        This is for the <code>a03_grocery_list.py</code> file. Your printed output must be the same as the expected output of each input test case. This includes the correct BMI calculations and BMI categories.
         <br>
         <br>
-        See the <code>descriptions_ot_test_cases</code> folder for expected printed messages for each input test case.       
+        See the <code>descriptions_of_test_cases</code> folder for expected printed messages for each input test case.       
         </td>
         <td>15</td>
     <tr style="text-align: left">
         <td>4. Printed Messages: Dictionary</td>
         <td>
         <b>Input test cases used:</b> 3, 4<br><br>
-        This is for the <code>a04_snack_dictionary.py</code> file. Your printed output must be the same as the expected output of each input test case. This includes the correct BMI calculations and BMI categories.
+        This is for the <code>a03_snack_dictionary.py</code> file. Your printed output must be the same as the expected output of each input test case. This includes the correct BMI calculations and BMI categories.
         <br>
         <br>
-        See the <code>descriptions_ot_test_cases</code> folder for expected printed messages for each input test case.       
+        See the <code>descriptions_of_test_cases</code> folder for expected printed messages for each input test case.       
         </td>
         <td>15</td>
     </tr>
@@ -65,7 +65,7 @@ The tests will ignore spacing, capitalization, and punctuation, but you will fai
         Your code must create a list variable, and properly add and delete from it. It doesn't matter what you call the variable.
         <br>
         <br>
-        See the <code>descriptions_ot_test_cases</code> folder for inputs used in each test case to see what your list should hold.    
+        See the <code>descriptions_of_test_cases</code> folder for inputs used in each test case to see what your list should hold.    
         </td>
         <td>15</td>
     </tr>
@@ -76,7 +76,7 @@ The tests will ignore spacing, capitalization, and punctuation, but you will fai
         Your code must create a dictionary variable, and properly add and delete from it. It doesn't matter what you call the variable.
         <br>
         <br>
-        See the <code>descriptions_ot_test_cases</code> folder for inputs used in each test case to see what your dictionary should hold.    
+        See the <code>descriptions_of_test_cases</code> folder for inputs used in each test case to see what your dictionary should hold.    
         </td>
         <td>15</td>
     </tr>
