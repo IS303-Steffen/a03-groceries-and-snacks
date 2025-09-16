@@ -66,7 +66,7 @@ default_module_to_test = detect_module(solution_module, student_module)
 default_module_to_test_2 = detect_module(solution_module_2, student_module_2)
 
 # default per-test-case timeout amount in seconds:
-default_timeout_seconds = 7000
+default_timeout_seconds = 7
 
 # default decimal place to round to for regex comparisons
 # helpful for accounting for different rounding methods students could use.
