@@ -75,7 +75,7 @@ def test_06_dictionary_properly_updated(current_test_name, input_test_cases):
             for dict_name, student_dict in student_dictionaries.items():
                 # String is useful for error reporting if test fails
                 normalized_student_dict = {normalize_text(key): normalize_text(value) for key, value in student_dict.items()}
-                dict_name = dict_name.rpartition(".")[-1]
+                dict_name = dict_name.rpartition(".")[-1] # the trace function capturing the dictionaries usually includes the location of the dictionary as a prefix. This cuts out the prefix.
                 student_dictionaries_string += f"{dict_name}: {normalized_student_dict}\n\n"
 
                 # Check if student_dict matches any of the expected dictionaries
